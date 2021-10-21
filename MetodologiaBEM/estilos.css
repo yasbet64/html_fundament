@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.nav{
+    background: slateblue ;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+}
+
+.nav__logo{
+    height: 100%;
+    background: #fff;
+}
+
+.nav__img{
+    height: 100%;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+.nav__link--color{
+    color: tomato;
+    padding: 50px 20px;
+}
+
+.nav__link--col{
+    padding: 50px 20px;
+}
